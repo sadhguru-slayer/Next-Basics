@@ -1,0 +1,15 @@
+# Ignore node modules everywhere
+**/node_modules/
+
+# Ignore build outputs
+**/.next/
+**/out/
+
+# Ignore lock/package files if you don’t want them
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Ignore environment files
+**/.env
+**/.env.local
